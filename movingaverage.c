@@ -17,7 +17,7 @@ int main(){
     double out[size];
     int fc1 = 1e+3;
     int fc2 = 5e+6;
-    float lamda = 0;
+    float lamda = 0.98;
     for (int i=0; i<size; i++){
       In[i] = 0.2*sin(2*3.141516*fc2*i/(fc1*size)) + sin(2*3.141516*fc1*i/(fc1*size));
       //printf("%f\n",In[i]);

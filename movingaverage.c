@@ -24,8 +24,8 @@ int main(){
     }
 
     MA(out,In,size,lamda);
-    for (int i=0;i<size;i++){
+   for (int i=0;i<size;i++){
       printf("%f\n",out[i]);
-    }
+      }
     return 0;
   }
